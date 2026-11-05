@@ -99,7 +99,23 @@ url("imagenes/cieloestrellado.jpg");
                 transform: translateY(-10px);
             }
         }
+/* Segundo fantasma */
 
+.fantasma2 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: calc(50% + 350px);
+    top: 265px;
+    animation: flotar 3s ease-in-out infinite;
+}
+
+.fantasma2 img {
+    display: block;
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
         /* Tarjeta */
 
         .tarjeta {
@@ -368,6 +384,9 @@ url("imagenes/cieloestrellado.jpg");
 
             <div class="fantasma">
     <img src="imagenes/fantasma1.png" alt="Fantasma dibujado">
+</div>
+<div class="fantasma2">
+    <img src="imagenes/fantasma2.png" alt="Segundo fantasmita">
 </div>
 
             <!-- PRIMERA PANTALLA -->
